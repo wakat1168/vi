@@ -1,3 +1,4 @@
+/* Basic styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -12,20 +13,26 @@ header {
 }
 
 main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     padding: 20px;
 }
 
-.chat-container {
-    margin-top: 20px;
-    position: relative;
+section {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+/* Styling for additional info section */
+#additional-info {
+    max-width: 400px;
+}
+
+/* Styling for chatbot section */
+#chatbot {
+    max-width: 800px;
 }
