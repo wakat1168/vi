@@ -1,31 +1,57 @@
+/* styles.css */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f5f5f5;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
+.header {
+    background-color: #7d3ac1;
+    color: white;
+    padding: 10px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
     text-align: center;
-    padding: 2px;
-}
- 
-main {
-    padding: 0px;
+    background-color: #e6eaf5;
+    padding: 50px 20px;
 }
 
-.chat-container {
-    margin-top: 0px;
-    position: relative;
+.latest-posts {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
+.latest-posts h3 {
     text-align: center;
-    padding: 2px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    margin-bottom: 20px;
+}
+
+.latest-posts article {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
