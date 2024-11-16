@@ -8,6 +8,7 @@ CREATE TABLE users (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+
 -- Создание таблицы курсов
 CREATE TABLE courses (
     id INT AUTO_INCREMENT PRIMARY KEY,
