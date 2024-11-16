@@ -38,3 +38,5 @@ CREATE TABLE grades (
     FOREIGN KEY (course_id) REFERENCES courses(id),
     FOREIGN KEY (teacher_id) REFERENCES users(id)
 );
+-- Обновление таблицы пользователей
+ALTER TABLE users ADD COLUMN is_admin BOOLEAN DEFAULT FALSE;
