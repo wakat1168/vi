@@ -1,6 +1,6 @@
 // script.js
 
-// Проверка входа
+
 document.addEventListener('DOMContentLoaded', () => {
     const loginButton = document.querySelector('#login-button');
     if (loginButton) {
